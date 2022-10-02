@@ -34,8 +34,8 @@ public class Aux_ci {
     static String directoryName = System.getProperty("user.dir");
     static String RutaData = directoryName + System.getProperty("file.separator") + "data.properties";
 
-    public static String PassCi = "ControlIntegral5685";
-    public static String Pass136 = "Swed1212*";
+    public static String PassCi = "*";
+    public static String Pass136 = "**";
 
     // ***********************************************************************
     public String proba_ci() {
@@ -130,7 +130,7 @@ public class Aux_ci {
 
     public String comprobar_sql_server(String url, String driver) {
         String userName = "sa";
-        String password = "ControlIntegral5685";
+        String password = "*";
         // String url =
         //"jdbc:sqlserver://192.168.1.141\\SQLEXPRESS;databaseName=INTEGRAL2";
 //		String url = "jdbc:sqlserver://localhost\\SQLEXPRESS;databaseName=INTEGRAL2";
